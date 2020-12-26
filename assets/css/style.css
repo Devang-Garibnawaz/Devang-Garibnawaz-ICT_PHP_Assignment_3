@@ -1,0 +1,4148 @@
+
+
+/*
+*******************************************
+*******************************************
+
+Template Name: Cryptobase - Crypto Currency HTML5 Template 
+Author: Hassan Rasu
+Version: 1.0
+Template By: Themescare
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+This files contents are outlined below >>>>
+
+*** SEARCH EACH SECTION AS IT COMMENTS, YOU WILL GET THE RIGHT SECTION.
+
+*******************************************
+*******************************************
+
+==== CSS INDEX
+
+01 - IMPORTED CSS
+02 - DEFAULT CSS
+03 - SITE PRELOADER CSS
+04 - BTN TO TOP CSS
+05 - PAGINATION CSS
+06 - BREADCROMB CSS
+07 - REPONSIVE MENU CSS
+08 - HEADER TOP AREA CSS
+09 - MAIN HEADER CSS
+10 - SLIDER AREA CSS
+11 - CALCULATOR AREA CSS
+12 - FEATURE AREA CSS
+13 - ABOUT AREA CSS
+14 - GET PROJECT AREA CSS
+15 - CHOOSE US AREA CSS
+16 - PLAN AREA CSS
+17 - CURRENCY PRICE AREA CSS
+18 - TESTIMONIAL AREA CSS
+19 - BLOG AREA CSS
+20 - SUBSCRIBE AREA CSS
+21 - FOOTER AREA CSS
+22 - ABOUT PAGE AREA CSS
+23 - HOW WORK AREA CSS
+24 - INVESTOR AREA CSS
+25 - SERVICE PAGE AREA CSS
+26 - SINGLE SERVICE PAGE AREA CSS
+27 - TEAM AREA CSS
+28 - FAQS PAGE CSS
+29 - ERROE PAGE CSS
+30 - LOGIN PAGE CSS
+31 - BUY AND SELL PAGE CSS
+32 - BLOG PAGE CSS
+33 - SINGLE BLOG PAGE CSS
+34 - SHOP PAGE CSS
+35 - SINGLE SHOP PAGE CSS
+36 - CART PAGE CSS
+37 - CHECKOUT PAGE CSS
+38 - CONTACT PAGE CSS
+
+*/
+
+
+/*================================================
+01 - IMPORTED CSS
+==================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700');
+
+/*================================================
+02 - DEFAULT CSS
+==================================================*/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #444;
+	font-weight: 300
+}
+
+html,
+body {
+	height: 100%;
+}
+
+*::-moz-selection {
+	background: #4a4948 none repeat scroll 0 0;
+	color: #fff;
+	text-shadow: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto
+}
+
+.cryptobase-btn {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+}
+
+.cryptobase-btn:hover {
+	background: #de8100 none repeat scroll 0 0;
+	border: 1px solid #de8100;
+	color: #fff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: inherit
+}
+
+a:focus {
+	text-decoration: none;
+	outline: medium none;
+	color: inherit
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: none;
+	color: inherit
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.no-pad-right {
+	padding-right: 0
+}
+
+.no-pad-left {
+	padding-left: 0
+}
+
+.site-heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.site-heading>h2 {
+	color: #333;
+	display: inline-block;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.site-heading>h2:before {
+	background: #333 none repeat scroll 0 0;
+	bottom: 5px;
+	content: "";
+	height: 2px;
+	position: absolute;
+	right: -110px;
+	width: 33%;
+}
+
+.site-heading>h2:after {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: -110px;
+	position: absolute;
+	top: 5px;
+	width: 33%;
+}
+
+.site-heading span {
+	color: #ff9606;
+}
+
+.site-heading-white {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.site-heading-white>h2 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.site-heading-white>h2:before {
+	background: #fff none repeat scroll 0 0;
+	bottom: 5px;
+	content: "";
+	height: 2px;
+	position: absolute;
+	right: -110px;
+	width: 33%;
+}
+
+.site-heading-white>h2:after {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: -110px;
+	position: absolute;
+	top: 5px;
+	width: 33%;
+}
+
+.site-heading-white span {
+	color: #ff9606;
+}
+
+.section_100 {
+	padding: 100px 0;
+}
+
+.section_50 {
+	padding: 50px 0;
+}
+
+.section_15 {
+	padding: 15px 0
+}
+
+.pad-right {
+	padding-right: 0
+}
+
+.section_t_100 {
+	padding-top: 100px
+}
+
+.section_b_100 {
+	padding-bottom: 100px
+}
+
+.section_b_70 {
+	padding-bottom: 70px
+}
+
+
+/*================================================
+03 - SITE PRELOADER CSS
+==================================================*/
+
+.main-preloader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999999999;
+	background-color: #222;
+	text-align: center;
+}
+
+.main-preloader .main-preloader-inner {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.main-preloader .preloader-percentage {
+	color: #ffffff;
+	margin: 0;
+}
+
+.main-preloader .preloader-percentage span {
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+}
+
+
+/*================================================
+04 - BTN TO TOP CSS
+==================================================*/
+
+.btntoTop:before {
+	color: #fff;
+	content: "";
+	display: inline-block;
+	font: 20px "FontAwesome";
+	vertical-align: middle;
+}
+
+.btntoTop {
+	background-color: #212121;
+	border: 2px solid #212121;
+	border-radius: 2px;
+	bottom: 30px;
+	cursor: pointer;
+	height: 44px;
+	line-height: 36px;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position: fixed;
+	right: 30px;
+	text-align: center;
+	-webkit-transition: opacity 0.4s ease 0s;
+	transition: opacity 0.4s ease 0s;
+	width: 44px;
+	z-index: 99999;
+}
+
+.btntoTop.active {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.btntoTop.active:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 2px solid #ff9606;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.btntoTop.active.btntoTop:hover:before {
+	color: #fff;
+}
+
+
+/*================================================
+05 - PAGINATION CSS
+==================================================*/
+
+ul.pagination {
+	list-style: outside none none;
+	margin: 35px 0 0;
+	padding: 0;
+	text-align: center;
+	display: block
+}
+
+ul.pagination li {
+	display: inline-block;
+	margin: 0 3px
+}
+
+ul.pagination li a {
+	background: #1a1a1a none repeat scroll 0 0;
+	border: 1px solid #1a1a1a;
+	border-radius: 0 !important;
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	font-weight: 600;
+	height: 35px;
+	letter-spacing: 2px;
+	min-width: 35px;
+	padding: 5px;
+	text-transform: uppercase;
+}
+
+ul.pagination li.active a,
+ul.pagination li>a:hover,
+ul.pagination li.active a:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #ff9606;
+}
+
+
+/*================================================
+06 - BREADCROMB CSS
+==================================================*/
+
+.breadcromb-top {
+	background: rgba(0, 0, 0, 0) url("../img/breadcromb.jpg") no-repeat fixed 0 0/cover;
+	color: #fff;
+	padding: 100px 0;
+	text-align: center;
+	position: relative
+}
+
+.breadcromb-top:before {
+	background: rgba(0, 0, 0, 0.72) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.breadcromb-top-text>h2 {
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.breadcromb-bottom {
+	background: #f6f8fa none repeat scroll 0 0;
+	padding: 15px 0
+}
+
+.breadcromb-bottom-text li {
+	color: #ff9606;
+	display: inline-block;
+	font-weight: 500;
+	margin: 0 5px;
+	text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a {
+	color: #555;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.breadcromb-bottom-text a:hover {
+	color: #ff9606
+}
+
+
+/*================================================
+07 - REPONSIVE MENU CSS
+==================================================*/
+
+.cryptobase-responsive-menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	width: 100%;
+	z-index: 999;
+}
+
+.slicknav_nav a {
+	font-size: 16px;
+	margin: 0;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #000
+}
+
+.slicknav_menu {
+	background: transparent;
+}
+
+.slicknav_menutxt {
+	display: none !important;
+}
+
+.slicknav_arrow {
+	float: right;
+	color: #000
+}
+
+.slicknav_nav a:hover {
+	border-radius: 0;
+}
+
+.slicknav_nav .slicknav_row:hover {
+	border-radius: 0
+}
+
+.slicknav_nav a:hover,
+.slicknav_nav .slicknav_row:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff
+}
+
+.slicknav_nav li {
+	border-bottom: 1px solid #aaa;
+}
+
+.slicknav_nav li:last-child {
+	border-bottom: 0px solid #aaa
+}
+
+.slicknav_nav {
+	background: #fff none repeat scroll 0 0;
+	border-top: 1px solid #ff9606;
+}
+
+.slicknav_btn {
+	background-color: transparent !important;
+	line-height: 0;
+	margin-bottom: 0;
+	margin-right: 10px;
+	margin-top: 0;
+	padding: 3px 3px 15px;
+}
+
+.slicknav_menu .slicknav_icon {
+	float: none !important;
+	margin: 0
+}
+
+.slicknav_icon-bar {
+	height: 3px !important;
+	margin: 5px 0;
+	width: 30px !important;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #000;
+}
+
+
+/*================================================
+08 - HEADER TOP AREA CSS
+==================================================*/
+
+.header-top-left>p,
+.header-top-right>p {
+	border-right: 1px solid #fff;
+	display: inline-block;
+	margin-right: 5px;
+	padding-right: 5px;
+	color: #fff
+}
+
+.header-top-left>p:last-child,
+.header-top-right>p:last-child {
+	margin-right: 0;
+	padding-right: 0;
+	border-right: 0px solid #fff
+}
+
+.header-top-left>p i,
+.header-top-right>p i {
+	margin-right: 5px
+}
+
+.header-top-right a:hover {
+	color: #ff9606
+}
+
+.header-top-right .dropdown {
+	display: inline-block;
+	background: transparent
+}
+
+.header-top-right .dropdown button {
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.header-top-right .dropdown button:hover {
+	color: #ff9606
+}
+
+.dropdown .dropdown-menu {
+	border-radius: 0;
+	left: auto;
+	margin: 0;
+	min-width: 115px;
+	padding: 0px;
+	position: absolute;
+	right: 0;
+	z-index: 9999999
+}
+
+.dropdown-menu img {
+	margin-right: 5px;
+}
+
+.dropdown-menu li {
+	color: #333;
+	cursor: pointer;
+	padding: 5px 10px
+}
+
+.dropdown-menu li:hover {
+	background: #eee none repeat scroll 0 0
+}
+
+.header-top-right {
+	text-align: right;
+}
+
+.header-top-area {
+	background: #071635 none repeat scroll 0 0;
+	padding: 5px 0;
+}
+
+
+/*================================================
+09 - MAIN HEADER CSS
+==================================================*/
+
+.mainmenu ul {
+	text-align: right
+}
+
+.mainmenu ul li {
+	display: inline-block;
+	position: relative
+}
+
+.mainmenu ul li a {
+	display: block;
+	padding: 31px 15px;
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600
+}
+
+.mainmenu li>a:hover,
+.mainmenu li.current-page-item>a {
+	color: #ff9606;
+}
+
+.mainmenu ul li ul {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	left: 0;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position: absolute;
+	text-align: left;
+	top: 130%;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	visibility: hidden;
+	width: 200px;
+	z-index: 99;
+}
+
+.mainmenu ul li:hover>ul {
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	top: 100%
+}
+
+.mainmenu ul li ul>li {
+	display: block;
+	position: relative;
+	border-bottom: 1px solid #eee
+}
+
+.mainmenu ul li ul li:last-child {
+	border-bottom: 0px solid #eee
+}
+
+.mainmenu ul li ul li a {
+	padding: 7px 15px;
+	text-transform: capitalize;
+	color: #333;
+	font-size: 14px;
+	font-weight: 400
+}
+
+.mainmenu ul li ul li a:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	padding-left: 20px
+}
+
+.mainmenu ul li ul ul {
+	visibility: hidden;
+	position: absolute;
+	left: 100%;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	z-index: 99;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	top: -50%;
+}
+
+.mainmenu ul li:hover ul li:hover>ul {
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	left: 100%;
+	top: 0;
+}
+
+.mainmenu ul li ul li a span {
+	float: right;
+}
+
+.mainmenu ul li:hover>a {
+	color: #ff9606
+}
+
+.mainmenu ul li:hover ul li:hover>a {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	padding-left: 20px
+}
+
+.wallet-btn {
+	margin: 23px 0;
+	text-align: right;
+}
+
+.wallet-btn>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+}
+
+.wallet-btn>a:hover {
+	background: #de8100 none repeat scroll 0 0;
+	border: 1px solid #de8100;
+}
+
+.sitelogo {
+	margin: 11px 0;
+}
+
+.sitelogo img {
+	position: relative;
+	z-index: 9999;
+}
+
+
+/*================================================
+10 - SLIDER AREA CSS
+==================================================*/
+
+.slide-item-1 {
+	background: rgba(0, 0, 0, 0.3) url("../img/slider-1.png") repeat scroll 0 0;
+}
+
+.slide-item-2 {
+	background: rgba(0, 0, 0, 0.3) url("../img/slider-2.jpg") repeat scroll 0 0;
+}
+
+.slide-item-3 {
+	background: rgba(0, 0, 0, 0.3) url("../img/slider-3.jpg") repeat scroll 0 0;
+}
+
+.cryptobase-main-caption {
+	background: rgba(28, 28, 28, 0.65) none repeat scroll 0 0
+}
+
+.cryptobase-main-slide {
+	background-color: #eee;
+	background-position: center center;
+	background-size: cover;
+	height: 560px;
+}
+
+.slider-text {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.cryptobase-main-caption {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.cryptobase-caption-cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.slider-text h2 {
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-shadow: 0 0 4px #000;
+	text-transform: uppercase;
+}
+
+.slider-text p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+.cryptobase-main-caption a {
+	margin: 0 5px;
+}
+
+.cryptobase-slide .owl-nav>.owl-prev {
+	visibility: hidden;
+	-webkit-transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+	transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.cryptobase-slide:hover .owl-nav>.owl-prev {
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.cryptobase-slide .owl-nav>.owl-next {
+	visibility: hidden;
+	-webkit-transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+	transition: all 0.3s cubic-bezier(.83, .8, .11, .64) 0s;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.cryptobase-slide:hover .owl-nav>.owl-next {
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.cryptobase-slide .owl-prev {
+	background: rgba(215, 215, 215, 0.46) none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	font-size: 14px;
+	height: 45px;
+	left: 0;
+	line-height: 36px;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	width: 45px;
+}
+
+.cryptobase-slide .owl-next {
+	background: rgba(215, 215, 215, 0.46) none repeat scroll 0 0;
+	border-radius: 0;
+	color: #fff;
+	font-size: 14px;
+	height: 45px;
+	line-height: 36px;
+	padding: 5px 5px 5px 5px;
+	position: absolute;
+	text-align: center;
+	top: 45%;
+	width: 45px;
+	right: 0
+}
+
+.cryptobase-slide .owl-prev:hover,
+.cryptobase-slide .owl-next:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+}
+
+
+/*================================================
+11 - CALCULATOR AREA CSS
+==================================================*/
+
+.calculator-box {
+	background: #f9f9f9 none repeat scroll 0 0;
+	margin-top: -115px;
+	padding: 30px;
+	position: relative;
+	z-index: 999;
+	border-top: 4px solid #ff9606;
+	box-shadow: 0px 4px 8px rgba(41, 41, 41, 0.4)
+}
+
+.cryptonatorwidget>div {
+	display: none
+}
+
+.quotes-left>h3 {
+	color: #333;
+	font-size: 23px;
+	margin-bottom: 10px;
+	font-family: 'Lora', serif;
+	font-weight: 600
+}
+
+.bitcoin-calculator input {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	border: 1px solid #ddd;
+	padding: 2px 10px;
+	width: 100%
+}
+
+.bitcoin-calculator {
+	text-align: left;
+}
+
+.calculator-row {
+	position: relative;
+	margin-bottom: 15px
+}
+
+.bitcoin-calculator label {
+	display: block;
+	text-transform: capitalize
+}
+
+.form-info {
+	border-left: 1px solid #ddd;
+	color: #111;
+	font-size: 16px;
+	font-weight: 600;
+	height: 50%;
+	line-height: 30px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 31px;
+	width: 35%;
+}
+
+.calculator-row span.select2 {
+	border-left: 1px solid #ddd;
+	position: absolute;
+	right: 0;
+	width: 35% !important;
+}
+
+.calculator-row #select2-currency-select-container {
+	min-height: 30px;
+	line-height: 24px;
+	color: #111;
+	padding: 5px 10px
+}
+
+.select2-container--default .select2-selection--single {
+	background-color: transparent !important
+}
+
+.select-primary~.select2 .select2-selection__rendered,
+.select-primary~.select2 .select2-selection__rendered:active,
+.select-primary~.select2 .select2-selection__rendered:focus,
+.select-primary~.select2 .select2-selection__rendered:hover {
+	background: transparent !important
+}
+
+.select2-selection__arrow b {
+	color: #111 !important
+}
+
+
+/*================================================
+12 - FEATURE AREA CSS
+==================================================*/
+
+.feature-text {
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.feature-text>h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.single-feature {
+	background: #f9f9f9 none repeat scroll 0 0;
+	padding: 50px 20px;
+	text-align: center;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	border: 1px solid #fff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	background: #ff9606 none repeat scroll 0 0;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	display: inline-block;
+	position: relative;
+	-webkit-transform: translateZ(0px);
+	transform: translateZ(0px);
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: color;
+	transition-property: color;
+	vertical-align: middle;
+	margin-bottom: 30px;
+	width: 100%
+}
+
+.feature-icon {
+	background: #ff9606 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 22px;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 10px;
+	width: 60px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg)
+}
+
+.feature-icon i {
+	border: 3px solid #fff;
+	border-radius: 10px;
+	height: 50px;
+	line-height: 44px;
+	width: 50px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.single-feature:before {
+	background: #f9f9f9 none repeat scroll 0 0;
+	bottom: 0;
+	color: #333;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+	-webkit-transform-origin: 50% 50% 0;
+	transform-origin: 50% 50% 0;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	z-index: -1;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.single-feature:hover:before {
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	border: 1px solid #ff9606
+}
+
+.single-feature:hover .feature-text>h3,
+.single-feature:hover .feature-text {
+	color: #fff
+}
+
+.single-feature:hover .feature-icon {
+	background: #fff none repeat scroll 0 0;
+	color: #ff9606;
+	-webkit-transform: rotate(-360deg);
+	transform: rotate(-360deg)
+}
+
+.single-feature:hover .feature-icon i {
+	border: 3px solid #ff9606
+}
+
+
+/*================================================
+13 - ABOUT AREA CSS
+==================================================*/
+
+.about-left>h2 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.about-left span {
+	color: #ff9606;
+}
+
+.cryptobase-about-area {
+	background: #f9f9f9 none repeat scroll 0 0
+}
+
+.about-left>a.cryptobase-btn {
+	margin-top: 20px
+}
+
+.about-right {
+	position: relative
+}
+
+.about-right .popup-youtube {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 100%;
+	color: #ff9606;
+	font-size: 30px;
+	height: 70px;
+	left: 50%;
+	line-height: 70px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 70px;
+	z-index: 9;
+}
+
+.popup-youtube i {
+	margin-left: 5px
+}
+
+.about-right .iq-waves {
+	height: 352px;
+	height: 22rem;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 352px;
+	width: 22rem;
+	z-index: 2;
+}
+
+.about-right .iq-waves .waves {
+	-webkit-animation: 3s ease-in-out 0s normal none infinite running waves;
+	        animation: 3s ease-in-out 0s normal none infinite running waves;
+	background: rgb(255, 150, 6) none repeat scroll 0 0 padding-box;
+	border-radius: 320px;
+	height: 352px;
+	height: 22rem;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	position: absolute;
+	width: 352px;
+	width: 22rem;
+}
+
+.about-right .iq-waves .wave-1 {
+	-webkit-animation-delay: 0s;
+	        animation-delay: 0s;
+}
+
+.about-right .iq-waves .wave-2 {
+	-webkit-animation-delay: 1s;
+	        animation-delay: 1s;
+}
+
+.about-right .iq-waves .wave-3 {
+	-webkit-animation-delay: 2s;
+	        animation-delay: 2s;
+}
+
+@-webkit-keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}
+
+@keyframes waves {
+	0% {
+		-webkit-transform: scale(0.2, 0.2);
+		transform: scale(0.2, 0.2);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+	50% {
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	}
+	100% {
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9);
+		opacity: 0;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+}
+
+
+/*================================================
+14 - GET PROJECT AREA CSS
+==================================================*/
+
+.cryptobase-get-project-area {
+	background: #ff9606 none repeat scroll 0 0;
+}
+
+.get-project-left>h3 {
+	color: #fff;
+	font-family: "Lora", serif;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 5px 0
+}
+
+.get-project-right>a {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #333;
+	display: inline-block;
+	font-weight: 500;
+	padding: 7px 40px;
+	text-transform: uppercase;
+}
+
+.get-project-right {
+	text-align: right;
+}
+
+.get-project-right>a:hover {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #fff;
+	color: #fff
+}
+
+
+/*================================================
+15 - CHOOSE US AREA CSS
+==================================================*/
+
+.single-choose {
+	border: 1px solid #ddd;
+	margin-bottom: 30px;
+	padding: 20px;
+	position: relative;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.choose-icon {
+	background: #ff9606 none repeat scroll 0 0;
+	border-radius: 5px;
+	color: #fff;
+	float: left;
+	font-size: 25px;
+	height: 60px;
+	line-height: 60px;
+	margin-right: 15px;
+	position: relative;
+	text-align: center;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 60px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.choose-icon:after {
+	border-color: #fff transparent;
+	border-style: solid;
+	border-width: 0 20px 20px;
+	content: "";
+	position: absolute;
+	right: -17px;
+	top: -7px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.choose-icon:before {
+	border-color: #fff transparent;
+	border-style: solid;
+	border-width: 20px 20px 0;
+	bottom: -7px;
+	content: "";
+	left: -17px;
+	position: absolute;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.choose-icon i {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.choose-text {
+	overflow: hidden;
+}
+
+.choose-text>h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.single-choose:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #ff9606
+}
+
+.single-choose:hover .choose-icon {
+	background: #fff none repeat scroll 0 0;
+	color: #ff9606
+}
+
+.single-choose:hover .choose-icon:before {
+	border-color: #ff9606 transparent;
+}
+
+.single-choose:hover .choose-icon:after {
+	border-color: #ff9606 transparent;
+}
+
+.single-choose:hover .choose-text>h3 {
+	color: #fff;
+}
+
+
+/*================================================
+16 - PLAN AREA CSS
+==================================================*/
+
+.cryptobase-plan-area {
+	background: url(../img/pricing_bg.jpg) no-repeat fixed 0 0/cover;
+	text-align: center;
+	position: relative;
+	z-index: 1
+}
+
+.cryptobase-plan-area:after {
+	background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.single-plan-box {
+	color: #555;
+	margin-bottom: 30px;
+	text-align: center;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: auto;
+}
+
+.no-box-shadow {
+	box-shadow: 0 0 4px #ddd;
+}
+
+.single-plan-box:hover {
+	box-shadow: 3px 0 29px rgba(0, 0, 0, 0.26)
+}
+
+.plan-heading {
+	background: #f2f2f2 none repeat scroll 0 0;
+	padding: 20px 10px;
+}
+
+.plan-heading>h2 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 19px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.plan-rate {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 20px 10px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.plan-content>ul,
+.plan-content,
+.plan-invest-btn {
+	text-align: center;
+	background: #fff none repeat scroll 0 0
+}
+
+.plan-invest-btn>a.cryptobase-btn {
+	border-radius: 0px;
+	margin-top: 5px
+}
+
+.plan-content ul li {
+	font-size: 14px;
+	padding: 10px 15px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	color: #333
+}
+
+.single-plan-box .plan-content ul li:nth-child(2n+2) {
+	background: #f2f2f2 none repeat scroll 0 0;
+}
+
+.plan-rate>h2 {
+	font-size: 40px;
+}
+
+
+/*================================================
+17 - CURRENCY PRICE AREA CSS
+==================================================*/
+
+.currency-price-left>h2 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.currency-price-left>h2>span {
+	color: #ff9606;
+}
+
+.currency-price-left>p {
+	margin: 0 0 10px;
+}
+
+.currency-price-left>a.cryptobase-btn {
+	margin-top: 30px;
+}
+
+.currency-price-right table th {
+	color: #333;
+	text-transform: capitalize;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+	border-bottom: 0 solid #ddd;
+	border-top: 0 solid #ddd;
+	vertical-align: middle;
+	color: #333
+}
+
+.currency-price-right table {
+	margin-bottom: 0
+}
+
+.currency-price-left ul li i {
+	background: #ff9606 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	width: 20px;
+}
+
+.currency-price-right {
+	overflow-y: auto
+}
+
+.currency-price-left li {
+	margin: 5px 0;
+}
+
+.currency-price-left>ul {
+	margin-top: 30px;
+}
+
+.currency-price-right table td img {
+	margin-right: 5px;
+}
+
+.up {
+	color: #43c443 !important
+}
+
+.down {
+	color: #f42c1b !important
+}
+
+.currency-price-right td i {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.up i {
+	margin-top: 4px;
+}
+
+.down i {
+	margin-top: -4px;
+}
+
+
+/*================================================
+18 - TESTIMONIAL AREA CSS
+==================================================*/
+
+.cryptobase-testimonial-area {
+	background: #212121 none repeat scroll 0 0;
+	z-index: 1;
+}
+
+.single-testimonial-item {
+	background: #2b2b2b none repeat scroll 0 0;
+	padding: 30px;
+	position: relative;
+	text-align: left
+}
+
+.testimonial-text {
+	border-bottom: 1px solid #3c3c3c;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: #ccc
+}
+
+.info-img {
+	float: left;
+	margin-right: 15px;
+}
+
+.info-img>img {
+	border-radius: 50%;
+}
+
+.info-text {
+	display: inline-block;
+	margin-top: 5px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.testimonial-image {
+	margin-bottom: 20px;
+}
+
+.info-text>h3 {
+	color: #ff9606;
+	font-family: "Lora", serif;
+	font-size: 20px;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+.cryptobase-testimonial-area .single-testimonial-item:before {
+	bottom: 67px;
+	color: #333;
+	content: "";
+	font-family: "FontAwesome";
+	font-size: 50px;
+	position: absolute;
+	right: 39px;
+}
+
+.cryptobase-testimonial-area .single-testimonial-item:after {
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(135deg, #222 45%, #333 50%, #333333 56%, #333 80%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(315deg, #222 45%, #333 50%, #333333 56%, #333 80%) repeat scroll 0 0;
+	bottom: 0;
+	content: "";
+	height: 40px;
+	pointer-events: none;
+	position: absolute;
+	right: 0;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: width, height;
+	transition-property: width, height;
+	width: 40px;
+}
+
+.owl-dots {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.owl-dots .owl-dot {
+	display: inline-block;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+	background: #fff none repeat scroll 0 0;
+	display: block;
+	height: 10px;
+	margin: 5px 7px 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 10px;
+}
+
+.owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+	background: #ff9606 none repeat scroll 0 0;
+}
+
+
+/*================================================
+19 - BLOG AREA CSS
+==================================================*/
+
+.single-blog-post {
+	margin-bottom: 30px;
+	border: 1px solid #ddd
+}
+
+.single-blog-post:hover .blog-post-image img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.blog-post-image img {
+	width: 100%;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	-webkit-transform: scale(1);
+	transform: scale(1)
+}
+
+.blog-post-text {
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.blog-post-text h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.post-date {
+	border-bottom: 1px solid #ddd;
+	color: #555;
+	display: block;
+	font-style: italic;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.post-read-more {
+	margin-top: 15px;
+}
+
+.blog-post-text h3:hover {
+	color: #ff9606
+}
+
+.blog-post-image {
+	overflow: hidden;
+}
+
+
+/*================================================
+20 - SUBSCRIBE AREA CSS
+==================================================*/
+
+.cryptobase-subscribe-area {
+	background: #ff9606 none repeat scroll 0 0;
+	text-align: center;
+}
+
+.subscibe-box>h2 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.subscibe-box>p {
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+
+.subscibe-box>form {
+	background: #fff none repeat scroll 0 0;
+	margin: 20px auto 0;
+	position: relative;
+	width: 50%;
+	height: 40px
+}
+
+.subscibe-box form input {
+	border: medium none;
+	height: 100%;
+	left: 0;
+	padding: 5px 10px;
+	position: absolute;
+	width: 80%;
+}
+
+.subscibe-box form button {
+	background: #212121 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 19%;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.subscibe-box form button:hover {
+	background: #333333 none repeat scroll 0 0
+}
+
+
+/*================================================
+21 - FOOTER AREA CSS
+==================================================*/
+
+.footer-top-area {
+	background: #222 url(../img/footer-bg.png) no-repeat scroll 0 0/cover;
+	color: #636c72
+}
+
+.footer-logo {
+	margin-bottom: 15px;
+}
+
+.single-footer-widget>h3 {
+	color: #eee;
+	font-size: 19px;
+	text-transform: capitalize;
+	margin-bottom: 15px
+}
+
+.single-footer-widget {
+	margin-top: 15px;
+}
+
+.single-footer-widget.footer-logo-widget {
+	margin-top: 0;
+}
+
+.latest-post-footer-left {
+	background: #303030 none repeat scroll 0 0;
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	text-align: center;
+	width: 40px;
+}
+
+.latest-post-footer-right {
+	overflow: hidden;
+}
+
+.latest-post-footer {
+	margin-bottom: 20px;
+}
+
+.latest-post-footer:last-child {
+	margin-bottom: 0
+}
+
+.latest-post-footer-right>h4 {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+	color: #787f84
+}
+
+.latest-post-footer-right>h4>a:hover {
+	color: #eee
+}
+
+.latest-post-footer-right>p {
+	color: #eee;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.single-footer-widget li {
+	margin-bottom: 5px
+}
+
+.single-footer-widget li a:hover {
+	color: #eee
+}
+
+.single-footer-widget>form {
+	background: #333 none repeat scroll 0 0;
+	height: 35px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.single-footer-widget input {
+	background: transparent none repeat scroll 0 0;
+	border: medium none;
+	height: 100%;
+	left: 0;
+	padding: 5px 10px;
+	position: absolute;
+	top: 0;
+	color: #eee;
+	width: 80%;
+}
+
+.single-footer-widget button {
+	background: #f26723 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20%;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.single-footer-widget button:hover {
+	background: #464646 none repeat scroll 0 0
+}
+
+.copyright-area {
+	background: #171717 none repeat scroll 0 0;
+	border-top: 1px solid #2b2b2b;
+	color: #7f7f7f;
+	padding: 25px 0;
+	text-align: center;
+}
+
+.copyright-right p a {
+	color: #ff9606;
+	margin: 0 3px;
+}
+
+.single-footer-widget a {
+	text-transform: capitalize;
+}
+
+.single-footer-widget a i {
+	margin-right: 5px
+}
+
+.copyright-right>p {
+	text-transform: capitalize;
+}
+
+
+/*================================================
+22 - ABOUT PAGE AREA CSS
+==================================================*/
+
+.about-page-left-para>h2 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.about-page-left-para>h2 span {
+	color: #ff9606;
+}
+
+.about-page-left-para>p {
+	margin: 0 0 10px;
+}
+
+.about-page-right-img {
+	margin-bottom: 15px;
+}
+
+.about-page-right-img:last-child {
+	margin-bottom: 0
+}
+
+.count-box {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #f58e00;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 15px;
+	padding: 15px;
+	text-align: center;
+}
+
+.count-box h3 {
+	border-bottom: 1px solid #fff;
+	font-family: "Lora", serif;
+	font-weight: 600;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+
+/*================================================
+23 - HOW WORK AREA CSS
+==================================================*/
+
+.cryptobase-how-works-area:before {
+	background-image: url("../img/bitcoin2.jpg");
+	background-position: center center;
+	background-size: cover;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 50%;
+}
+
+.cryptobase-how-works-area {
+	width: 100%;
+	background-color: #f8f8f8;
+	overflow: hidden;
+	position: relative;
+}
+
+.cryptobase-how-works-wrap {
+	float: right;
+	padding: 0 50px;
+	width: 50%;
+	text-align: center
+}
+
+.cryptobase-abt-overlay {
+	background: rgba(0, 0, 0, 0.39) none repeat scroll 0 0;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 50%;
+}
+
+.cryptobase-abt-btn {
+	margin-top: 15px;
+}
+
+.cryptobase-how-works-wrap>h2 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.cryptobase-how-works-wrap>h2 span {
+	color: #ff9606;
+}
+
+
+/*================================================
+24 - INVESTOR AREA CSS
+==================================================*/
+
+.investor-img {
+	position: relative;
+	overflow: hidden
+}
+
+.investor-social>ul {
+	bottom: -10px;
+	position: absolute;
+	text-align: center;
+	visibility: hidden;
+	width: 100%;
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.single-investor-slide:hover .investor-social>ul {
+	bottom: 20px;
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.investor-social li {
+	display: inline-block;
+}
+
+.investor-social a {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-size: 18px;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+}
+
+.investor-social a:hover {
+	background: #393939 none repeat scroll 0 0
+}
+
+.investor-text {
+	background: #f9f9f9 none repeat scroll 0 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.investor-text>h3 {
+	text-transform: capitalize;
+	color: #333;
+	font-size: 21px;
+	font-weight: 500;
+}
+
+.investor-text>p {
+	color: #555;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.investor-slide .owl-prev {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 20px;
+	height: 40px;
+	left: 15px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	visibility: hidden;
+	width: 40px;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.investor-slide .owl-next {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 20px;
+	height: 40px;
+	right: 15px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	top: 15%;
+	width: 40px;
+	visibility: hidden;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+
+.investor-slide:hover .owl-next {
+	right: -20px;
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+.investor-slide:hover .owl-prev {
+	left: -20px;
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+
+/*================================================
+25 - SERVICE PAGE AREA CSS
+==================================================*/
+
+.single-service-left {
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+}
+
+.single-service-right {
+	overflow: hidden;
+}
+
+.single-service {
+	border: 1px solid #ddd;
+	padding: 20px;
+	margin-bottom: 30px
+}
+
+.single-service-right h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: 3px;
+	text-transform: capitalize;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.single-service-right>a>h3:hover {
+	color: #ff9606
+}
+
+
+/*================================================
+26 - SINGLE SERVICE PAGE AREA CSS
+==================================================*/
+
+.thumb-service>img {
+	width: 100%
+}
+
+.thumb-service {
+	margin-bottom: 12px;
+}
+
+.single-service-text>h2,
+.about-service-right>h2,
+.single-service-widget>h2 {
+	color: #000;
+	font-size: 24px;
+	line-height: 35px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	position: relative;
+	text-transform: capitalize;
+	font-weight: 500
+}
+
+.single-service-text>h2:before,
+.about-service-right>h2:before,
+.single-service-widget>h2:before {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+}
+
+.single-service-text {
+	margin-top: 15px;
+}
+
+.single-service-text>p {
+	margin: 0 0 10px;
+}
+
+.single-service-widget {
+	margin-bottom: 30px
+}
+
+.single-service-widget:last-child {
+	margin-bottom: 0
+}
+
+.about-service-left>img {
+	width: 100%
+}
+
+.about-service-right>ul {
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+}
+
+.about-service-right li {
+	color: #333;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.about-service-right ul li i {
+	color: #ff9606;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.panel-heading {
+	padding: 0
+}
+
+.panel-default>.panel-heading {
+	background: transparent
+}
+
+.panel-group .panel {
+	border: medium none;
+	border-radius: 4px;
+	box-shadow: 0 0 0;
+	margin-bottom: 0;
+}
+
+.panel-heading a {
+	border: 1px solid #ddd;
+	color: #333;
+	display: block;
+	font-weight: 500;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.panel-heading a>i {
+	float: right;
+	font-size: 14px;
+	margin-top: 2px;
+	color: #f26723
+}
+
+.panel-group {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+.panel.panel-default {
+	margin-top: 8px
+}
+
+.panel-group .panel+.panel {
+	margin-top: 8px
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top: 0px solid #ddd
+}
+
+.panel-body {
+	border: 1px solid #ddd
+}
+
+.single-service-left-widget {
+	margin-bottom: 50px;
+}
+
+.single-service-left-widget li {
+	border-bottom: 3px solid #fff;
+}
+
+.single-service-left-widget li a:hover,
+.single-service-left-widget ul li.active>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border-left: 5px solid #000;
+	color: #fff;
+}
+
+.single-service-left-widget li a {
+	background: #f7f7f7 none repeat scroll 0 0;
+	border-left: 5px solid #f7f7f7;
+	color: #000;
+	display: block;
+	font-weight: 500;
+	padding: 10px 20px;
+	text-transform: capitalize;
+}
+
+.single-service-left-widget li a i {
+	float: right;
+	font-size: 20px;
+	margin-top: 2px;
+}
+
+.widget-title>h3 {
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.widget-title>h3:before {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+}
+
+.broucher-item {
+	margin: 10px 0;
+	position: relative;
+}
+
+.broucher-item>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border-left: 0 none;
+	color: #fff;
+	display: block;
+	padding: 10px 20px 10px 50px;
+}
+
+.broucher-item>a:hover {
+	background: #212121 none repeat scroll 0 0;
+}
+
+.broucher-item>a span {
+	color: #fff;
+	float: right;
+	margin-top: 5px;
+}
+
+.broucher-item i {
+	background: #fff none repeat scroll 0 0;
+	color: #ff9606;
+	font-size: 20px;
+	height: 30px;
+	left: 14px;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 6px;
+	width: 30px;
+}
+
+.single-service-left-widget:last-child {
+	margin-bottom: 0
+}
+
+.single-service-left-widget>form {
+	background: #f7f7f7 none repeat scroll 0 0;
+	padding: 20px;
+}
+
+.single-service-left-widget form p label {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #000
+}
+
+.single-service-left-widget form p input {
+	border: 1px solid #ddd;
+	height: 40px;
+	padding: 5px 10px;
+	width: 100%;
+	color: #000
+}
+
+.single-service-left-widget form p button[type="submit"] {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+	border-radius: 5px
+}
+
+.single-service-left-widget form p button[type="submit"]:hover {
+	background: #de8100 none repeat scroll 0 0;
+	border: 1px solid #de8100;
+}
+
+.single-service-left-widget form p textarea {
+	border: 1px solid #ddd;
+	height: 80px;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.single-service-left-widget p {
+	margin: 5px 0;
+}
+
+#mychart {
+	width: 100%;
+	height: 430px
+}
+
+
+/*================================================
+27 - TEAM AREA CSS
+==================================================*/
+
+.single-team {
+	display: block;
+	height: auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+	border: 1px solid #ddd
+}
+
+.team-details {
+	background: #fff none repeat scroll 0 0;
+	padding: 60px 0;
+	position: relative;
+	text-align: center;
+}
+
+.team-details>h3 {
+	color: #333;
+	font-size: 21px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.team-contact {
+	padding: 0 25px;
+	text-align: center;
+}
+
+.team-contact>p {
+	margin: 10px 0;
+}
+
+.team-contact i {
+	color: #ff9606;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.team-contact>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	margin-top: 10px
+}
+
+.team-image {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+	width: 100%;
+}
+
+.team-image>img {
+	height: 100%;
+	width: 100%;
+}
+
+.team_img_overlay_1 {
+	border-color: rgba(255, 150, 6, 0.58) transparent;
+	border-style: solid;
+	border-width: 0 265px 125px 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	overflow: visible;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+
+.single-team:hover div.team-image {
+	left: -100%;
+}
+
+
+/*================================================
+28 - FAQS PAGE CSS
+==================================================*/
+
+.cryptobase-single-faqs {
+	margin-bottom: 25px;
+}
+
+.cryptobase-single-faqs:last-child {
+	margin-bottom: 0px;
+}
+
+.cryptobase-single-faqs i {
+	margin-right: 5px;
+	color: #ff9606
+}
+
+.cryptobase-single-faqs>h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	display: inline-block
+}
+
+.cryptobase-single-faqs>p {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.cryptobase-faqs-right>h3 {
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize
+}
+
+.cryptobase-faqs-right>form {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+	margin-top: 30px;
+	padding: 30px 50px;
+}
+
+.cryptobase-faqs-right>form p {
+	margin-top: 15px;
+}
+
+.cryptobase-faqs-right>form label {
+	color: #333;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 0;
+	text-transform: capitalize;
+}
+
+.cryptobase-faqs-right>form textarea {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	height: 120px;
+	padding: 5px 10px;
+	width: 100%;
+	color: #333;
+}
+
+.cryptobase-faqs-right>form input {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	color: #333;
+	height: 40px;
+	padding: 5px 10px;
+	width: 100%;
+	color: #333;
+}
+
+.cryptobase-faqs-right>form button {
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+}
+
+.cryptobase-faqs-right>form button:hover {
+	background: #de8100 none repeat scroll 0 0;
+	border: 1px solid #de8100
+}
+
+
+/*================================================
+29 - ERROE PAGE CSS
+==================================================*/
+
+.notfound-right h1 {
+	font-family: "Merriweather", serif;
+	font-size: 150px;
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #333
+}
+
+.notfound-right>h2 {
+	color: #333;
+	font-family: "PT Sans", sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.notfound-right h2>span {
+	font-weight: 700;
+}
+
+.notfound-right a.cryptobase-btn {
+	margin-top: 20px;
+}
+
+.notfound-right {
+	margin-top: 20px
+}
+
+
+/*================================================
+30 - LOGIN PAGE CSS
+==================================================*/
+
+.cryptobase-login-page-area {
+	position: relative;
+}
+
+.cryptobase-login-page-area:after {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 35%;
+	z-index: -1
+}
+
+.login-left>h3 {
+	color: #fff;
+	font-family: "Merriweather", serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.login-left>p {
+	color: #fff;
+	font-family: "Merriweather", serif;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 15px;
+	text-transform: capitalize;
+}
+
+.login-left p a {
+	color: #333;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.login-left p a:hover {
+	text-decoration: none;
+	color: #fff
+}
+
+.back-log-home>a {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	padding: 7px 40px;
+	text-transform: uppercase;
+}
+
+.back-log-home>a:hover {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #fff;
+	color: #333;
+}
+
+.back-log-home {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.login-left {
+	display: inline-block;
+	padding: 50px 0;
+}
+
+.cryptobase-login-page-area:before {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 50%;
+	content: "";
+	height: 50px;
+	left: 33%;
+	position: absolute;
+	top: 45%;
+	width: 50px;
+}
+
+.login-form {
+	background: #222 none repeat scroll 0 0;
+	padding: 20px;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto
+}
+
+.login-form form {
+	margin: 0 auto;
+	text-align: left;
+	width: 85%;
+}
+
+.login-form form p input {
+	background: #444 none repeat scroll 0 0;
+	border: medium none;
+	color: #eee;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.login-form p {
+	margin: 10px 0;
+}
+
+.remember {
+	display: inline-block;
+	text-transform: capitalize
+}
+
+.remember>input[type=checkbox]+label {
+	display: block;
+	cursor: pointer;
+}
+
+.remember>input[type=checkbox] {
+	display: none;
+}
+
+.remember>input[type=checkbox]+label:before {
+	background: #eee none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	box-shadow: 0 0 1px #aaa;
+	color: transparent;
+	content: "✔";
+	height: 10px;
+	margin-bottom: 4px;
+	margin-right: 7px;
+	padding-bottom: 0;
+	padding-left: 2px;
+	padding-right: 2px;
+	-webkit-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+	vertical-align: bottom;
+	width: 10px;
+}
+
+.remember>input[type=checkbox]+label:active:before {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+}
+
+.remember>input[type=checkbox]:checked+label:before {
+	background-color: #ff9606;
+	border-color: #ff9606;
+	color: #fff;
+}
+
+.remember>input[type=checkbox]:disabled+label:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	border-color: #aaa;
+}
+
+.remember>input[type=checkbox]:checked:disabled+label:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	background-color: #f7b862;
+	border-color: #f7b862;
+}
+
+.lost-pass {
+	float: right;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.lost-pass>a:hover {
+	color: #ff9606
+}
+
+.login-form form p button {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	border: medium none;
+	margin: 0 auto
+}
+
+.login-form form p button:hover {
+	background: #444 none repeat scroll 0 0
+}
+
+.inline>a {
+	color: #eee;
+}
+
+.inline>a:hover {
+	text-decoration: underline
+}
+
+.register-pg-rmb {
+	display: block;
+	text-align: center
+}
+
+
+/*================================================
+31 - BUY AND SELL PAGE CSS
+==================================================*/
+
+#service_pro {
+	text-align: center;
+	border-bottom: 0 solid #ddd
+}
+
+#service_pro li {
+	display: inline-block;
+	float: none;
+}
+
+#product_tab_content .panel-body {
+	border: medium none
+}
+
+#service_pro a {
+	background: #f9f9f9 none repeat scroll 0 0;
+	border-color: currentcolor currentcolor #f9f9f9;
+	border-radius: 0;
+	border-style: none none solid;
+	border-width: 0 0 3px;
+	color: #000;
+	font-weight: 500;
+	margin: 0;
+	text-transform: uppercase;
+	position: relative
+}
+
+#service_pro a:after {
+	border-color: #fff transparent;
+	border-style: solid;
+	border-width: 7px 10px 0;
+	bottom: -10px;
+	content: "";
+	left: 42%;
+	position: absolute;
+}
+
+#service_pro .active>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border-color: currentcolor currentcolor #000;
+	border-radius: 0;
+	border-style: none none solid;
+	border-width: 0 0 3px;
+	color: #fff;
+	font-weight: 500;
+	margin: 0;
+	text-transform: uppercase;
+	position: relative
+}
+
+#service_pro .active>a:after {
+	border-color: #000 transparent;
+	border-style: solid;
+	border-width: 7px 10px 0;
+	bottom: -8px;
+	content: "";
+	left: 42%;
+	position: absolute;
+}
+
+.buy-table table td {
+	border-bottom: 1px solid #ddd !important;
+	border-top: 1px solid #ddd !important;
+}
+
+.buy-table table {
+	margin-bottom: 0 !important
+}
+
+#product_tab_content .panel-body {
+	padding: 0
+}
+
+.buy-table {
+	overflow-y: auto;
+	margin-top: 20px;
+}
+
+.buy-table tbody {
+	background: #fff none repeat scroll 0 0;
+}
+
+.buy-table .table-striped>tbody>tr:nth-of-type(2n+1) {
+	background-color: #f8fdff;
+}
+
+.buy-table table thead tr {
+	background: #222 none repeat scroll 0 0;
+}
+
+.buy-table table thead tr th {
+	color: #fff
+}
+
+.buy-table table td a {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	border-radius: 5px;
+	color: #fff;
+	display: block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	text-align: center
+}
+
+.buy-table table td a:hover {
+	background: #de8100 none repeat scroll 0 0;
+	border: 1px solid #de8100
+}
+
+.buy-table table td i {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+
+/*================================================
+32 - BLOG PAGE CSS
+==================================================*/
+
+.single-blog {
+	margin-bottom: 30px;
+}
+
+.blog-image {
+	overflow: hidden;
+}
+
+.blog-image img {
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.blog-image:hover img {
+	-webkit-transform: scale(1.06);
+	transform: scale(1.06);
+}
+
+.blog-text {
+	box-shadow: 0 0 6px #aaa;
+	padding: 20px;
+}
+
+.blog-text>h2 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.blog-text>h2>a:hover {
+	color: #ff9606;
+}
+
+.blog-meta>ul {
+	margin-bottom: 10px;
+}
+
+.blog-meta ul li:after {
+	content: "/";
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 2px;
+}
+
+.blog-meta ul li:last-child:after {
+	display: none;
+}
+
+.blog-meta ul li {
+	display: inline-block;
+	font-style: italic;
+	font-weight: 400;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.blog-meta ul li a:hover {
+	color: #ff9606;
+}
+
+.post-content>p {
+	margin: 0 0 10px;
+}
+
+.share-button-social {
+	float: right;
+	margin-top: 20px
+}
+
+.share-button-social>a {
+	margin: 0 5px;
+}
+
+.share-button-social a:hover {
+	color: #ff9606;
+}
+
+.blog-text .cryptobase-btn {
+	margin-top: 10px;
+}
+
+.blog-sidebar-widget {
+	margin-bottom: 30px;
+}
+
+.blog-sidebar-widget:last-child {
+	margin-bottom: 0px;
+}
+
+.social_links a {
+	border: 1px solid #ddd;
+	color: #444;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 35px;
+}
+
+.social_links a:hover {
+	background: #3ac6b6 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #3ac6b6
+}
+
+.blog-sidebar-widget>h3:before {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+}
+
+.blog-sidebar-widget>h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	position: relative;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.blog-sidebar-widget input {
+	border: medium none;
+	color: #333;
+	padding: 5px 10px;
+	width: 80%;
+	height: 35px;
+}
+
+.blog-sidebar-widget button {
+	background: #ff9606 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	height: 35px;
+	width: 18%;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.blog-sidebar-widget button:hover {
+	background: #212121 none repeat scroll 0 0
+}
+
+.blog-sidebar-widget>form {
+	background: #eee none repeat scroll 0 0;
+	padding: 20px;
+}
+
+.blog-sidebar-widget ul.blog-categories>li {
+	border-bottom: 1px solid #ededed;
+}
+
+.blog-sidebar-widget ul.blog-categories>li:last-child {
+	border-bottom: 0px solid #ededed;
+}
+
+.blog-sidebar-widget ul.blog-categories>li a {
+	color: #333;
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	padding: 5px 10px;
+	text-transform: capitalize;
+}
+
+.blog-sidebar-widget ul.blog-categories>li a:hover {
+	color: #ff9606
+}
+
+.blog-thumb-info-image {
+	float: left;
+	width: 90px;
+}
+
+.blog-thumb-info-content {
+	float: left;
+	padding-left: 15px;
+	width: calc(100% - 90px);
+}
+
+.blog-sidebar-widget ul.featured-list>li {
+	border-bottom: 1px solid #ddd;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.blog-sidebar-widget ul.featured-list>li:last-child {
+	border-bottom: 0px solid #ddd
+}
+
+.blog-thumb-info-image img {
+	background: #eee none repeat scroll 0 0;
+	padding: 5px;
+}
+
+.blog-thumb-info-content h4 {
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+
+.blog-thumb-info-content h4>a:hover,
+.blog-thumb-info-content>p>a:hover {
+	color: #ff9606
+}
+
+.blog-thumb-info-content>p>a {
+	margin-left: 5px;
+}
+
+.blog-sidebar-widget ul.blog-tags>li {
+	display: inline-block;
+	margin: 2px;
+}
+
+.blog-sidebar-widget ul.blog-tags>li a {
+	border: 1px solid #ddd;
+	display: block;
+	padding: 3px 5px;
+	text-transform: capitalize;
+	color: #333
+}
+
+.blog-sidebar-widget ul.blog-tags>li a:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	border: 1px solid #ff9606;
+}
+
+.blog-sidebar-widget ul.instagram>li {
+	display: inline-block;
+	margin: 2px;
+	width: 22%;
+}
+
+.instagram img {
+	width: 100%
+}
+
+
+/*================================================
+33 - SINGLE BLOG PAGE CSS
+==================================================*/
+
+.single-page-text {
+	box-shadow: 0 0 0px #aaa;
+	padding: 0px;
+	margin-top: 20px
+}
+
+.blog-text blockquote {
+	background: #f9f9f9 none repeat scroll 0 0;
+	border-left: 5px solid #ff9606;
+	color: #333;
+	font-family: "Lora", serif;
+	font-size: 23px;
+	font-style: italic;
+	line-height: 33px;
+	margin-bottom: 30px;
+	margin-right: 0;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.post-share-box {
+	border-bottom: 1px solid #f3f3f3;
+	border-top: 1px solid #f3f3f3;
+	margin-top: 30px;
+	padding: 15px 20px;
+}
+
+.post-share-left>p,
+.post-share-right>p {
+	color: #000;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.post-share-right {
+	text-align: right;
+}
+
+.post-share-right a {
+	color: #bcc4d0;
+	margin-left: 5px;
+}
+
+.post_fb:hover {
+	color: #4b6ea9;
+}
+
+.post_twt:hover {
+	color: #65bbf2;
+}
+
+.post_gl:hover {
+	color: #dd4d41;
+}
+
+.post_lknd:hover {
+	color: #0075b5;
+}
+
+.post-share-left a {
+	color: #555;
+	font-weight: 500;
+	font-size: 14px
+}
+
+.post-share-left a:hover {
+	color: #ff9606
+}
+
+.comment-group-title>h2 {
+	color: #000;
+	font-family: "Raleway", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+
+.single-comment-item {
+	margin-top: 30px;
+}
+
+.single-comment-box {
+	background: #f9f9f9 none repeat scroll 0 0;
+	margin-bottom: 10px;
+	padding: 0 10px 30px;
+	position: relative;
+	-webkit-transition: all 300ms ease 0s;
+	transition: all 300ms ease 0s;
+}
+
+.main-comment {
+	font-size: 14px;
+	padding: 30px 0 0 100px;
+	position: relative;
+}
+
+.author-image {
+	border-radius: 50%;
+	left: 0;
+	margin-bottom: 20px;
+	position: absolute;
+	top: 30px;
+}
+
+.author-image img {
+	border-radius: 50%;
+	display: block;
+	width: 80px;
+}
+
+.comment-info {
+	margin-bottom: 10px;
+}
+
+.comment-info h4 {
+	color: #333;
+	font-size: 17px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.comment-info>p {
+	color: #666;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.reply {
+	color: #666;
+	display: inline-block;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 600;
+	margin-top: 5px;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.reply:hover {
+	color: #ff9606
+}
+
+.single-comment-box.reply-comment {
+	margin-left: 100px;
+}
+
+.cryptobase-leave-comment>h3 {
+	color: #000;
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+
+.cryptobase-leave-comment {
+	margin-top: 50px;
+}
+
+.cryptobase-leave-comment>form {
+	margin-top: 20px;
+}
+
+.cryptobase-leave-comment input[type="text"],
+.cryptobase-leave-comment input[type="email"] {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	float: left;
+	height: 45px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-top: 0;
+	padding: 10px 15px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 45%;
+}
+
+.cryptobase-leave-comment textarea {
+	border: 1px solid #ddd;
+	height: 160px;
+	margin-bottom: 20px;
+	padding: 5px 15px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 93%;
+}
+
+.cryptobase-leave-comment button {
+	background: #ff9606 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	display: block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.cryptobase-leave-comment button:hover {
+	background: #444 none repeat scroll 0 0
+}
+
+
+/*================================================
+34 - SHOP PAGE CSS
+==================================================*/
+
+.shorting {
+	background: #f9f9f9 none repeat scroll 0 0;
+	padding: 15px 10px;
+	margin-bottom: 30px
+}
+
+.shorting p {
+	margin: 7px 0;
+	text-transform: capitalize;
+}
+
+.shorting form {
+	float: right;
+}
+
+.shorting form label {
+	font-weight: 500;
+	margin: 0;
+}
+
+.shorting select {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-transform: capitalize;
+}
+
+.single-shop-product {
+	border-bottom: 3px solid #ff9606;
+	box-shadow: 0 0 8px rgba(34, 30, 31, 0.3);
+	margin-bottom: 30px;
+}
+
+.single-product-image img {
+	width: 100%;
+}
+
+.single-product-text {
+	padding: 20px;
+	background: #f9f9f9 none repeat scroll 0 0
+}
+
+.single-product-text>h3 {
+	color: #000;
+	font-size: 19px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize
+}
+
+.single-product-text h3>a:hover {
+	color: #ff9606;
+}
+
+.product-price {
+	margin: 20px 0;
+}
+
+.product-price>h3 {
+	display: inline-block;
+}
+
+.product-rating {
+	float: right;
+}
+
+.product-rating>li {
+	color: #f3c30b;
+	display: inline-block;
+	margin: 0 1px;
+}
+
+.product-button>a {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	margin-right: 5px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.product-button>a:hover {
+	background: #2a2a2a none repeat scroll 0 0;
+}
+
+
+/*================================================
+35 - SINGLE SHOP PAGE CSS
+==================================================*/
+
+.single-pro-page-img {
+	box-shadow: 0 0 8px rgba(34, 30, 31, 0.3);
+	display: block;
+	padding: 20px;
+	background: #eee none repeat scroll 0 0
+}
+
+.single-pro-page-img>img {
+	width: 100%;
+}
+
+.single-pro-page-desc>h3 {
+	color: #000;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+.single-pro-page-desc>ul {
+	margin-top: 10px;
+}
+
+.single-pro-page-desc li {
+	color: #f3c30b;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.single-pro-page-para {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	margin: 10px 0;
+	padding: 15px 0;
+}
+
+.single-shop-price>p {
+	color: #000;
+	font-size: 17px;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.qnt {
+	margin-top: 25px;
+}
+
+.single-shop-price>p input {
+	border: 1px solid #ddd;
+	font-weight: 500;
+	margin-left: 20px;
+	padding: 5px 10px;
+	width: 80px;
+}
+
+.single-shop-page-btn>a {
+	background: #ff9606 none repeat scroll 0 0;
+	color: #fff;
+	display: inline-block;
+	font-weight: 600;
+	margin-right: 5px;
+	margin-top: 30px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+}
+
+.single-shop-page-btn>a:hover {
+	background: #444 none repeat scroll 0 0
+}
+
+.share-product {
+	margin-top: 30px;
+}
+
+.share-product>h3 {
+	color: #000;
+	font-size: 20px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.single-pro-page-desc li {
+	color: #f3c30b;
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.share-product a {
+	border: 1px solid #2a2a2a;
+	border-radius: 50%;
+	color: #000;
+	display: block;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+}
+
+.share-product a:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+	color: #fff;
+}
+
+
+/*================================================
+36 - CART PAGE CSS
+==================================================*/
+
+.cart-table {
+	overflow-x: auto;
+	padding: 5px;
+	background: #eee none repeat scroll 0 0
+}
+
+.cart-table>table {
+	margin-bottom: 0
+}
+
+.cart-table table thead>tr:nth-of-type(2n+1),
+.calculate-shipping-bottom table tbody>tr:nth-of-type(2n+1) {
+	background: #f4f4f4 none repeat scroll 0 0;
+}
+
+.cart-table table thead th,
+.calculate-shipping-bottom table thead th {
+	color: #000;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.coupon-cart-right>a {
+	background: #212121 none repeat scroll 0 0;
+	border: 3px solid #212121;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 26px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.coupon-cart-right>a:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 3px solid #ff9606;
+}
+
+.cart-table thead th,
+.calculate-shipping-bottom thead th {
+	padding: 15px 20px !important;
+}
+
+.cart-table tbody td,
+.calculate-shipping-bottom tbody td {
+	padding: 15px 20px !important;
+	font-weight: 500;
+	color: #333
+}
+
+.cryptobase-cart-close {
+	text-align: center;
+	color: #e9563d
+}
+
+.cryptobase-cart-preview img {
+	height: 60px;
+	width: 60px;
+	padding: 5px;
+	background: #eee none repeat scroll 0 0
+}
+
+.cart-table tbody td p {
+	text-transform: capitalize;
+}
+
+.cryptobase-cart-quantity>input {
+	border: 1px solid #ddd;
+	padding: 5px;
+	width: 70px;
+}
+
+.cryptobase-cart-product p {
+	font-weight: 500;
+	display: inline-block
+}
+
+.cryptobase-cart-product a:hover {
+	color: #ff9606
+}
+
+.cart-table table tbody>tr:nth-of-type(2n+2),
+.calculate-shipping-right table tbody>tr:nth-of-type(2n+2) {
+	background: #f9f9f9 none repeat scroll 0 0;
+}
+
+.cart-table .table-striped>tbody>tr:nth-of-type(2n+1) {
+	background-color: #fff;
+}
+
+.cryptobase-update-cart {
+	margin-top: 30px;
+}
+
+.coupon-cart-left {
+	text-align: left;
+}
+
+.coupon-cart-right {
+	text-align: right;
+}
+
+.coupon-cart-left input[type="text"] {
+	background: #eee none repeat scroll 0 0;
+	border: medium none;
+	height: 45px;
+	padding: 10px 15px;
+	width: 60%;
+}
+
+.coupon-cart-left button {
+	background: #212121 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	display: inline-block;
+	height: 45px;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.coupon-cart-left button:hover {
+	background: #ff9606 none repeat scroll 0 0;
+}
+
+.calculate-shipping-top select {
+	border: 1px solid #ddd;
+	height: 45px;
+	padding: 5px;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+.calculate-shipping-top select option {
+	padding: 5px 10px;
+}
+
+.single-shipping input {
+	border: 1px solid #ddd;
+	height: 45px;
+	padding: 5px 10px;
+	width: 100%;
+	margin: 0
+}
+
+.single-shipping {
+	margin-top: 10px;
+}
+
+.calculate-shipping-top>form {
+	margin-top: 15px;
+}
+
+.calculate-shipping-bottom {
+	overflow-x: auto;
+}
+
+.calculate-shipping-top>table {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.single-shipping button {
+	background: #ff9606 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	display: block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.single-shipping button:hover {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 1px solid #ff9606;
+}
+
+.proceed-checkout>a {
+	background: #ff9606 none repeat scroll 0 0;
+	border: 3px solid #ff9606;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 26px;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+.proceed-checkout>a:hover {
+	background: #212121 none repeat scroll 0 0;
+	border: 3px solid #212121;
+}
+
+.proceed-checkout {
+	margin-top: 40px;
+	text-align: left;
+}
+
+.calculate-shipping-top>h3,
+.calculate-shipping-bottom>h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	position: relative;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.calculate-shipping-top>h3:before,
+.calculate-shipping-bottom>h3:before {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+}
+
+.calculate-shipping-top {
+	margin-top: 30px;
+}
+
+.calculate-shipping-bottom>table {
+	width: 100%;
+}
+
+
+/*================================================
+37 - CHECKOUT PAGE CSS
+==================================================*/
+
+.cryptobase-checkout-form>form {
+	margin-top: 30px;
+}
+
+.checkout-form-right {
+	margin-bottom: 0px;
+}
+
+.checkout-cart-table.cart-table>h3 {
+	color: #333;
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	position: relative;
+	text-transform: capitalize;
+}
+
+.checkout-form label {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #333
+}
+
+.checkout-form input {
+	border: 1px solid #ddd;
+	height: 40px;
+	padding: 5px 10px;
+	width: 100%;
+	margin-bottom: 15px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.checkout-form textarea {
+	border: 1px solid #ddd;
+	height: 105px;
+	padding: 10px;
+	width: 100%;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s
+}
+
+.checkout-cart-table {
+	margin-top: 50px;
+}
+
+.payment h4 {
+	color: #000;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.payment {
+	margin-top: 15px;
+}
+
+.checkout-cart-table>table {
+	margin-top: 15px;
+	margin-bottom: 0
+}
+
+.payment>img {
+	float: right;
+}
+
+.cryptobase-checkout-form h3 {
+	color: #333;
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	position: relative;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.cryptobase-checkout-form h3:before {
+	background: #ff9606 none repeat scroll 0 0;
+	content: "";
+	height: 2px;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: 80px;
+}
+
+.calculate-shipping-bottom table {
+	width: 100%
+}
+
+.cryptobase-payment {
+	margin-top: 50px;
+}
+
+.checkout-shiping-bottom table {
+	margin-top: 40px
+}
+
+
+/*================================================
+38 - CONTACT PAGE CSS
+==================================================*/
+
+.cryptobase-contact-desc {
+	margin-bottom: 50px;
+}
+
+.cryptobase-contact-desc>h3 {
+	color: #333;
+	display: inline-block;
+	font-family: "Raleway", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 3px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.single-contact-left {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+	margin-top: 20px;
+	padding: 20px;
+}
+
+.single-contact-left:first-child {
+	margin-top: 0;
+}
+
+.contact-icon {
+	background: #ff9606 none repeat scroll 0 0;
+	border-radius: 5px;
+	color: #fff;
+	display: table-cell;
+	float: left;
+	font-size: 30px;
+	height: 75px;
+	line-height: 75px;
+	margin-right: 10px;
+	text-align: center;
+	width: 75px;
+}
+
+.contact-text>h4 {
+	color: #333;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	font-family: "Raleway", sans-serif;
+}
+
+.cryptobase-contact-form-right>form {
+	background: #fff none repeat scroll 0 0;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+	margin-top: 0;
+	padding: 30px 50px;
+}
+
+.cryptobase-contact-form-right form p {
+	margin: 10px 0;
+}
+
+.cryptobase-contact-form-right input {
+	border: 1px solid #ddd;
+	height: 45px;
+	padding: 5px 10px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.cryptobase-contact-form-right textarea {
+	border: 1px solid #ddd;
+	height: 120px;
+	padding: 5px 10px;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	width: 100%;
+}
+
+.cryptobase-contact-form-right button {
+	background: #ff9606 none repeat scroll 0 0;
+	border: medium none;
+	color: #fff;
+	display: block;
+	font-weight: 500;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+
+.cryptobase-contact-form-right button:hover {
+	background: #444 none repeat scroll 0 0
+}
