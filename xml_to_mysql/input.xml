@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<items> 
+
+    <item>
+
+        <name>Devanshi Rughnathwala</name>
+
+        <classname>BSc</classname>
+
+        <gender>Female</gender> 
+
+        <marks>89.6</marks> 
+
+    </item> 
+
+    <item>
+
+        <name>Hari Matawala</name>
+
+        <classname>Bcom</classname>
+
+        <gender>Male</gender> 
+
+        <marks>60.9</marks> 
+
+    </item>
+	
+	<item>
+
+        <name>Anita garibnawaz</name>
+
+        <classname>12th</classname>
+
+        <gender>Female</gender> 
+
+        <marks>89.6</marks> 
+
+    </item>
+	
+	<item>
+
+        <name>Ashvin Garibnawaz</name>
+
+        <classname>BBA</classname>
+
+        <gender>Male</gender> 
+
+        <marks>65.3</marks> 
+
+    </item>
+
+</items>
